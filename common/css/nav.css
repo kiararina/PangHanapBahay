@@ -1,0 +1,29 @@
+/*   Common Elements
+================================*/
+.public-page   #main-menu nav{
+	height: 49px;
+	width: 1080px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.public-page  .sitemap nav{
+	width: 1080px;
+	margin: 5px auto 0 auto;
+	background-image: url(../image/listmark_sitemap.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+/*   Admin Page
+================================*/
+#admin-page #main-menu nav{
+	float: left;
+	margin: 10px 0 0 15px;
+	height: 30px;
+}
+
+
+
+
+

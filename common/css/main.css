@@ -1,0 +1,20 @@
+@import url("./div.css");
+@import url("./p.css");
+@import url("./body.css");
+@import url("./ul.css");
+@import url("./br.css");
+@import url("./h.css");
+@import url("./table.css");
+@import url("./dl.css");
+@import url("./a.css");
+@import url("./img.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./section.css");
+@import url("./nav.css");
+@import url("./form.css");
+*{
+	margin: 0;
+	padding: 0;
+	
+}

@@ -1,0 +1,117 @@
+/*   Common Elements
+================================*/
+table{
+	line-height:150%;
+	width:100%;
+}
+
+
+th{
+	padding:5px;
+	font-size:12px;
+}
+
+td{
+	padding:5px;
+	font-size:12px;
+}
+
+/*   Admin Page
+================================*/
+#admin-page table#info-table{
+	border: 1px solid #CCCCCCC;
+	border-collapse: collapse;
+}
+
+#admin-page table#info-table tr{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+
+#admin-page table#info-table th{
+	background:url(../../admin/image/bg_listheader.png) repeat-x;
+	height: 27px;
+	padding: 0;
+	line-height: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#admin-page table#info-table td.post-title{
+	width: 360px;
+	text-align: left;
+}
+
+#admin-page table#info-table td.post-acc{
+	width: 130px;
+	text-align: center;
+}
+
+#admin-page table#info-table td.post-date{
+	width: 155px;
+	text-align: center;
+}
+
+#admin-page table#info-table td.post-author{
+	width: 130px;
+	text-align: left;
+}
+
+#admin-page table#info-table td.post-options{
+	width: 180px;
+	text-align: center;
+}
+
+
+/*   Detail Page
+================================*/
+#detail-page .additional-info table.left,
+#detail-page .additional-info table.right{
+	width: 48%;
+	
+}
+
+#detail-page .additional-info table.left{
+	float: left;
+}
+
+#detail-page .additional-info table.right{
+	float: right;
+}
+
+#detail-page .additional-info table td{
+	font-size: 14px;
+	vertical-align: top;
+}
+
+
+#detail-page .additional-info table .info{
+	font-weight: bold;
+}
+
+/*   Agent Add Property Page
+================================*/
+#add-property-page #property{
+	border-collapse: collapse;
+	border: 2px solid #CCCCCC;
+	width: 97%;
+}
+
+#add-property-page #property tr td{
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+}
+
+#add-property-page #property td.label{
+	width: 25%;
+	background: #E0F8F7;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 0 5px 10px;
+	vertical-align: top;
+}
+
+#add-property-page td.file-input{
+	padding: 10px 5px !important;
+}

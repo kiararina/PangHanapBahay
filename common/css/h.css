@@ -1,0 +1,175 @@
+/*   Common Elements
+================================*/
+h1{
+	font-size:0.8em;
+	font-weight:normal;
+	letter-spacing:0.2em;
+}
+
+h2{
+  margin-bottom: 15px;
+
+}
+
+h3{
+
+
+}
+
+h4{
+
+
+}
+
+h5{
+
+
+}
+
+h6{
+
+
+}
+
+/*   Admin Page
+================================*/
+#admin-page h1{
+	float: left;
+}
+
+#admin-page h2{
+	background-image:url(../../admin/image/h2_mark.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 42px;
+	padding: 0 0 0 25px;
+	display: block;
+}
+
+#admin-page h3{
+	color: #212123;
+	border-bottom: 3px solid #CCCCCC;
+	padding-bottom: 6px;
+	margin-bottom: 15px;
+}
+
+#admin-page .side-activities  h3{
+	color: #435869;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 0;
+}
+
+/*   Public, Tenant, Agent Pages
+	 Common
+================================*/
+.public-page h1{
+	float: left;
+}
+
+.public-page .left-content h3,
+.agent-page .center-content h3,
+.public-page .right-content h3{
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-bottom: 4px solid #CCCCCC;
+	width: 97%;
+	padding-bottom: 3px;
+}
+
+.public-page .user-settings h3{
+	border: none;
+    color: #435869;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
+.public-page .unit-wrapper .unit-name h4{
+	margin: 5px 0 0 10px;
+	color: #0071BC;
+	font-size: 14px;
+}
+
+.public-page .side-navi form h4{
+	font-size: 14px;
+	margin: 25px 0 5px 10px;
+	color: #4F4F4F;
+	line-height: 100%;
+}
+
+.public-page .side-navi form h4.with-cap{
+	margin: 25px 0 0 10px;
+}
+
+.public-page .side-navi #side-location{
+	margin: 0 0 5px 10px;
+}
+
+#search-area  h4{
+	font-size: 14px;
+	margin: 25px 0 5px 10px;
+	color: #4F4F4F;
+	line-height: 100%;
+}
+
+#search-area h4.with-cap{
+	margin: 25px 0 0 10px;
+}
+
+#search-area #side-location{
+	margin: 0 0 5px 10px;
+}
+
+
+/*   Top Page
+================================*/
+#top-page{
+
+}
+
+
+
+/*   About Us Page
+================================*/
+#about-page{}
+
+
+/*   Contact Us Page
+================================*/
+#contact-page{}
+
+
+/*   Registration Page
+================================*/
+#regist-page{}
+
+
+/*   Detail Page
+================================*/
+#detail-page h4{
+	font-size: 15px;
+}
+
+#detail-page .main-info h4{
+	font-size: 24px;
+	margin-left: 13px;
+	padding-top: 13px;
+	line-height: 160%;
+}
+
+/*   Privacy Page
+================================*/
+#privacy-page .policy-wrapper h4{
+	font-size: 15px;
+	margin: 20px 0 0 20px;
+	color: #0080FF;
+}
+
+/*   Modal Dialog
+================================*/
+.modalDialog h2{
+	margin-top: 15px;
+}

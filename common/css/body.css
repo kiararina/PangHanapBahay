@@ -1,0 +1,11 @@
+body{
+	text-align:center;
+	background-color: #FFFFFF;
+	font-size:12px;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	color:#333333;
+	letter-spacing:0;
+	line-height:150%;
+	font-family: arial, helvetica, sans-serif;
+}

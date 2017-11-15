@@ -1,0 +1,12 @@
+footer{
+	width: 100%;
+}
+
+/*   Admin Page
+================================*/
+#admin-page footer{
+	background:url(../../admin/image/bg_footer.png) repeat-x;
+	background-position: center top;
+	display: block;
+	overflow: hidden;
+}

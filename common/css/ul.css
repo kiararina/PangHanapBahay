@@ -1,0 +1,241 @@
+/*   Common Elements
+================================*/
+ul{
+	list-style-type:none;
+	font-size:12px;
+	text-justify:inter-ideograph;
+	text-indent:0;
+	color:#333333;
+	letter-spacing:0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+/*   Admin Page
+================================*/
+#admin-page ul.activities li{
+	display: block;
+	overflow: hidden;
+}
+
+#admin-page #config-page ul.site-info{
+	margin-left: 28px;
+}
+
+#admin-page #config-page ul.site-info li{
+	overflow: hidden;
+	display: block;
+}
+
+#admin-page table#info-table td.post-options li{
+	width: 49%;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+}
+
+
+/*   Public, Tenant, Agent Pages
+	 Common
+================================*/
+
+.public-page .unit-wrapper ul{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.public-page #basic-view .options ul li,
+.public-page #detail-view .options ul li,
+.public-page .options ul li{
+	display: inline-block;
+}
+
+.public-page .result-navlinks ul li{
+	float: left;
+	width: 30px;
+	margin-left: 5px;
+	display: block;
+	border: 3px solid #CCCCCC;
+	text-align: center;
+	padding: 3px 0;
+}
+
+.public-page .result-navlinks ul li:first-child{
+	margin-left: 0;
+}
+
+.public-page .result-navlinks ul li.dots,
+.public-page .result-navlinks ul li.text{
+	border: none;
+}
+
+.public-page .result-navlinks ul li.text{
+	color: #0071BC;
+}
+
+#search-area form #amenitylist-01{
+	float: left;
+	width: 90%;
+	margin-left: 15px;
+}
+
+#search-area #amenitylist-01 li{
+	margin-left: 10px;
+}
+
+.side-navi ul li{
+	height: 25px;
+}
+
+#search-area ul li{
+	height: 22px;
+}
+
+#search-area ul li{
+	font-size: 12px;
+}
+
+.side-navi form ul li{
+	font-size: 12px;
+}
+
+.public-page .unit-wrapper .unit-info ul{
+	width: 100%;
+	clear: both;
+}
+
+.public-page .unit-wrapper .unit-info li{
+	float: left;
+	font-size: 13px;
+	padding: 3px 20px 2px 20px;
+	background-image: url(../image/listmark_unitdetail.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.public-page  .unit-wrapper .unit-info li:first-child{
+	padding: 3px 20px 2px 0;
+	background-image: none;
+}
+
+.public-page  .unit-wrapper .left-links ul li{
+	font-size: 12px;
+	float: left;
+	width: 115px;
+	text-align: center;
+}
+
+.public-page  .unit-wrapper .left-links ul li{
+	font-size: 12px;
+	float: left;
+	width: 115px;
+	text-align: center;
+	background-image: url(../image/listmark_unitlink.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.public-page  .unit-wrapper .left-links ul li:first-child{
+	background-image: none;
+}
+
+.public-page .user-settings li{
+    padding: 2px 0;
+	margin-left: 10px;
+}
+
+/*   Preferences Page
+================================*/
+#preference-page #location-area,
+#preference-page .min-area,
+#preference-page #propertylist-01{
+	margin-bottom: 30px;
+}
+
+#preference-page #location-area li,
+#preference-page .min-area li{
+	padding: 5px 0 5px 10px;
+}
+
+#preference-page #propertylist-01{
+	margin-left: 10px;
+}
+
+#preference-page #propertylist-01 li{
+	display: inline-block;
+	width: 150px;
+}
+
+
+/*   Modal Dialog
+================================*/
+#locationModal ul{
+	margin: 10px auto 20px 0;
+} 
+
+#locationModal li{
+	padding: 0 15px;
+	font-size: 13px;
+	font-weight: bold;
+} 
+
+#locationModal li:first-child{
+	padding: 0 15px 0 0;
+} 
+
+/*   Inquiry Modal
+================================*/
+.iModal .modalunit-details{
+	float: right;
+	width: 48% !important;
+	clear: none;
+}
+
+.iModal .modalunit-details li{
+	width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*   Pictures Modal
+================================*/
+.pModal #more-photos #photo-controls li{
+	display: block;
+	float: left;
+	margin: 1px 1px 0 0;
+	padding: 0 2px;
+	cursor: pointer;
+}
+
+/*   Agent Add Property Page
+================================*/
+#add-property-page #propertylist-01{
+	margin-left: 10px;
+}
+
+#add-property-page #propertylist-01 li{
+	display: inline-block;
+	width: 150px;
+}
+
+/*   Tenant Pages
+================================*/
+.tenant-page  #shortlist-options{
+	margin-left: 15px;
+	width: 100%;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.tenant-page  #shortlist-options li{
+	float: left;
+	padding: 0 10px 0 10px;
+}
+
+.tenant-page  #shortlist-options li:first-child{
+	padding: 0 10px 0 0;
+}
+
+
+

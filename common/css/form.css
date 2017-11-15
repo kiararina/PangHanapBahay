@@ -1,0 +1,602 @@
+/*   Common Elements
+================================*/
+input, select{
+	border: 1px solid #BFBFBF;
+	height: 20px;
+	color: #000000;
+}
+
+input.shortlist-radio,
+input.view-radio{
+	background: transparent !important;
+	border: none !important;
+}
+
+
+#login #login-btn{
+	background:url(../image/btn_login.png) no-repeat;
+    cursor:pointer;
+    width: 93px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+#deleteaccount-btn{
+	background:url(../image/btn_deleteaccount.png) no-repeat;
+    cursor:pointer;
+    width: 153px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+#cancel-btn{
+	background:url(../image/btn_cancel.png) no-repeat;
+    cursor:pointer;
+    width: 96px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+#logout-btn{
+	background:url(../image/btn_logout.png) no-repeat;
+    cursor:pointer;
+    width: 98px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 5px;
+	float: right;
+}
+
+#send-btn{
+	background:url(../image/btn_send.png) no-repeat;
+    cursor:pointer;
+    width: 83px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+#update-btn{
+	background:url(../image/btn_update.png) no-repeat;
+    cursor:pointer;
+    width: 102px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+#addproperty-btn{
+	background:url(../image/btn_addproperty.png) no-repeat;
+    cursor:pointer;
+    width: 115px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+#editproperty-btn{
+	background:url(../image/btn_editproperty.png) no-repeat;
+    cursor:pointer;
+    width: 140px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+#deleteproperty-btn{
+	background:url(../image/btn_deleteproperty.png) no-repeat;
+    cursor:pointer;
+    width: 83px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+#submit-btn{
+	background:url(../image/btn_submit.png) no-repeat;
+    cursor:pointer;
+    width: 90px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+
+#search-btn{
+	background:url(../image/btn_search.png) no-repeat;
+    cursor:pointer;
+    width: 130px;
+    height: 26px;
+    border: none;
+}
+
+
+#savesearch-btn{
+	background:url(../image/btn_savesearch.png) no-repeat;
+    cursor:pointer;
+    width: 117px;
+    height: 26px;
+    border: none;
+}
+
+#addunit-btn{
+	background:url(../image/btn_addunit.png) no-repeat;
+    cursor:pointer;
+    width: 99px;
+    height: 26px;
+    border: none;
+}
+
+
+/*   Admin Page
+================================*/
+#admin-page .login-wrapper label{
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#admin-page .login-form input{
+	width: 100%;
+	margin: 0;
+}
+
+#admin-page .login-form input#login-btn{
+	background:url(../../admin/image/btn_login.png) no-repeat;
+    cursor: pointer;
+    width: 97px;
+    height: 27px;
+    border: none;
+	float: right;
+	margin-top: 20px;
+}
+
+#admin-page .logout-form input#logout-btn{
+	background:url(../../admin/image/btn_logout.png) no-repeat;
+    cursor: pointer;
+    width: 97px;
+    height: 27px;
+    border: none;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+
+/*   Public, Tenant, Agent Pages
+	 Common
+================================*/
+
+.public-page #login .login-div label{
+	margin-bottom: 3px;
+	display: block;
+}
+
+.side-navi form input, .side-navi form select{
+	background-color: #FFFFFF;
+	width: 180px !important;
+}
+
+.side-navi ul li input{
+	width: 18px;
+	margin: 0 5px 0 0;
+}
+
+.side-navi form label{
+	width: 80px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#search-area input, #search-area select{
+	background-color: #FFFFFF;
+	width: 170px;
+	float: right;
+	margin-right: 10px;
+}
+
+#search-area ul li input{
+	width: 18px;
+	margin: 0 5px 0 0;
+}
+
+#search-area #amenitylist-01 input{
+	width: 5px;
+	margin: 0 5px 0 0;
+	float: none;
+}
+
+#search-area label{
+	width: 100px;
+	display: inline-block;
+	margin: 0 0 5px 10px;
+}
+
+.public-page #login label{
+	font-size: 11px;
+}
+
+.public-page #login .login-div label{
+	margin: 0;
+	padding: 0;
+	line-height: 120%;
+}
+
+.public-page #login .login-div input{
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	width: 98%;
+	height: 22px;
+}
+
+.public-page #login .login-div select{
+	width: 100%;
+	height: 24px;
+}
+
+.public-page #login #login-btn{
+	background:url(../image/btn_login.png) no-repeat;
+    cursor:pointer;
+    width: 93px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+.public-page #deleteaccount-btn{
+	background:url(../image/btn_deleteaccount.png) no-repeat;
+    cursor:pointer;
+    width: 153px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+.public-page #cancel-btn{
+	background:url(../image/btn_cancel.png) no-repeat;
+    cursor:pointer;
+    width: 96px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 20px;
+}
+
+.public-page #logout-btn{
+	background:url(../image/btn_logout.png) no-repeat;
+    cursor:pointer;
+    width: 98px;
+    height: 26px;
+    border: none;
+	margin: 12px 0 0 5px;
+	float: right;
+}
+
+.public-page #send-btn{
+	background:url(../image/btn_send.png) no-repeat;
+    cursor:pointer;
+    width: 83px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+.public-page #update-btn{
+	background:url(../image/btn_update.png) no-repeat;
+    cursor:pointer;
+    width: 102px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+.public-page #addproperty-btn{
+	background:url(../image/btn_addproperty.png) no-repeat;
+    cursor:pointer;
+    width: 115px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+.public-page #editproperty-btn{
+	background:url(../image/btn_editproperty.png) no-repeat;
+    cursor:pointer;
+    width: 140px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+.public-page #submit-btn{
+	background:url(../image/btn_submit.png) no-repeat;
+    cursor:pointer;
+    width: 90px;
+    height: 26px;
+    border: none;
+	float: right;
+}
+
+.public-page .view-radio{
+	margin: 0 5px 0 15px;
+}
+
+
+.side-navi form label,
+.side-navi form input,
+.side-navi form checkbox,
+.side-navi form radiobutton{
+	font-size: 12px;
+}
+
+.side-navi form input.textfield{
+	margin-bottom: 5px;
+}
+
+.side-navi #search-btn{
+	background:url(../image/btn_search.png) no-repeat;
+    cursor:pointer;
+    width: 130px;
+    height: 26px;
+    border: none;
+	margin: 40px 80px;
+}
+
+#search-area label,
+#search-area input,
+#search-area checkbox,
+#search-area radiobutton{
+	font-size: 12px;
+}
+
+#search-area input.textfield{
+	1margin-bottom: 5px;
+}
+
+#search-area #search-btn{
+	background:url(../image/btn_search.png) no-repeat;
+    cursor:pointer;
+    width: 130px;
+    height: 26px;
+    border: none;
+	1margin: 40px 80px;
+}
+
+.view-options input.vo-radio{
+	margin-top: 10px;
+}
+
+#contact-page #cancel-btn,
+#preference-page #cancel-btn,
+#register-page #cancel-btn,
+#reset-page #cancel-btn,
+#forgot-page #cancel-btn{
+	margin: 0;
+}
+
+#contact-page #submit-btn,
+#preference-page #submit-btn,
+#register-page #submit-btn,
+#reset-page #submit-btn,
+#forgot-page #submit-btn{
+	float: none;
+	margin-left: 60%;
+}
+
+#reset-page .btn-area input,
+#preference-page .btn-area input,
+#register-page .btn-area input,
+#contact-page .btn-area input,
+#forgot-page .btn-area input{
+	margin: 0 10px;
+}
+
+
+/*   Top Page
+================================*/
+#top-page{
+
+}
+
+/*   Tenant Pages
+================================*/
+#tenant-page .account-settings label{
+	width: 24%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#tenant-page .account-settings #name,
+#tenant-page .account-settings #email,
+#tenant-page .account-settings #username,
+#tenant-page .account-settings #password,
+#tenant-page .account-settings #account{
+	width: 74%;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.tenant-page  input.shorlist-radio{
+	margin: 0 5px 0 15px;
+	display: inline-block;
+}
+
+input#shortlist1,
+input#shortlist2,
+input#shortlist3{
+	background: transparent !important;
+	border: none !important;
+}
+
+/*   Forgot Page
+================================*/
+#forgot-page  #email-address{
+	width: 55%;
+}
+
+#forgot-page  .radio-btn{
+	margin: 0 5px;
+}
+
+/*   Reset Page
+================================*/
+#reset-page  #username1,
+#reset-page  #password1,
+#reset-page  #password2{
+	width: 65%;
+	float: right;
+}
+
+/*   Register Page
+================================*/
+#register-page .form-wrapper  .textfield,
+#register-page .form-wrapper  .password{
+	width: 65%;
+	float: right
+}
+
+#register-page  .radio-btn{
+	margin: 0 5px;
+}
+
+#register-page #password1, 
+#register-page #password2{
+	margin-bottom: 6px;
+} 
+
+/*   Contact Page
+================================*/
+#contact-page .form-wrapper .textfield,
+#contact-page .form-wrapper .textarea{
+	width: 75%;
+	float: right
+}
+
+#contact-page .textarea{
+	height: 200px;
+	vertical-align: top;
+}
+
+/*   Profile Page
+================================*/
+#profile-page  #username,
+#profile-page  #password,
+#profile-page  #name,
+#profile-page  #email{
+	width: 65%;
+	float: right;
+}
+
+#profile-page #update-btn{
+	margin: 0;
+}
+
+#profile-page #cancel-btn{
+	margin: 0;
+	float: right;
+	margin-left: 15px;
+}
+
+#profile-page #send-btn{
+	float: none;
+	margin-left: 60%;
+}
+
+#profile-page .btn-area input{
+	margin: 0 10px;
+}
+
+/*   Preferences Page
+================================*/
+#preference-page #location-area label{
+	width: 100px;
+}
+
+#preference-page #location-area select{
+	width: 220px;
+	float: right;
+}
+
+#preference-page #propertylist-01 li input{
+	float: left;
+	margin-right: 5px;
+}
+
+#preference-page label{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#preference-page .min-area input{
+	width: 180px;
+	float: right;
+}
+
+/*   Modal Dialog
+================================*/
+.modalDialog .modalbtn-area input{
+	margin: 0 auto;
+}
+
+/*   Inquiry Modal
+================================*/
+.iModal .form-wrapper .textfield,
+.iModal .form-wrapper .textarea{
+	width: 75%;
+	float: right
+}
+
+.iModal .textarea{
+	height: 150px;
+	vertical-align: top;
+}
+
+.iModal #cancel-btn{
+	float: right;
+	margin: 0;
+}
+
+.iModal #send-btn{
+	float: left;
+	margin: 0;
+}
+
+/*   Agent Add Property Page
+================================*/
+#add-property-page table td div label{
+	width: 15%;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#add-property-page table td div select{
+	width: 30%;
+}
+
+#add-property-page table td #title{
+	width: 100%;
+}
+
+#add-property-page  #propertylist-01 li input {
+    float: left;
+    margin-right: 5px;
+}
+
+#add-property-page td.file-input input{
+	border: none;
+}
+
+#add-property-page form .btn-area input{
+	float: right;
+}
+
+#add-property-page form #addproperty-btn,
+#add-property-page form #editproperty-btn{
+	margin: 12px 0 0 20px;
+}
+

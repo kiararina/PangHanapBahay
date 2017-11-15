@@ -1,0 +1,825 @@
+/*   Common Elements
+================================*/
+div{
+	text-align: left;
+}
+
+/*   Admin Page
+================================*/
+#admin-page .login-wrapper{
+	background-color: #D9E1E2;
+	margin: 200px auto 0 auto;
+	width: 575px;
+	height: 230px;
+	overflow: hidden;
+	display: block
+}
+
+#admin-page .login-form{
+	margin: 35px 37px 0 auto;
+	float: right;
+	width: 230px;
+}
+
+#admin-page .input-area{
+	1height: 40px;
+	overflow: hidden;
+	
+}
+
+#admin-page .header-inner{
+	height: 99px;
+	background:url(../../admin/image/bg_header.png) repeat-x;
+	overflow: hidden;
+	display: block;
+	padding: 0 15px;
+}
+
+#admin-page .logout-form{
+	float: right;
+	width: 380px;
+	margin-right: 179px;
+	position: relative;
+	padding-top: 15px;
+}
+
+#admin-page #main-menu{
+	background:url(../../admin/image/bg_menu.png) repeat-x;
+	width: 100%;
+	height: 43px;
+}
+
+#admin-page .header2{
+	background:url(../../admin/image/bg_h2.png) repeat-x;
+	height: 42px;
+	margin-bottom: 15px;
+	display: block;
+	overflow: hidden;
+}
+
+#admin-page .content{
+	width: 96%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+#admin-page .subcontent{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+
+#admin-page .content-wrapper{
+	min-height: 300px;
+	padding-bottom: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+#admin-page .copyright{
+	background:url(../../admin/image/bg_copyright.png) repeat-x;
+	height: 43px;
+	margin-top: 12px;
+	display: block;
+	overflow: hidden;
+}
+
+#admin-page .backtotop-area{
+	position: absolute;
+	bottom: 0;
+	text-align: right;
+	width: 96%;
+	left: 23px;
+}
+
+#admin-page .left-content{
+	width: 966px;
+	float: left;
+	overflow: hidden;
+}
+
+#admin-page .right-content{
+	float: right;
+	width: 250px;
+	overflow: hidden;
+}
+
+#admin-page .right-content .side-activities{
+	background: #F4F4F4;
+	padding: 15px 15px 30px 15px;
+}
+
+
+/*   Public, Tenant, Agent Pages
+	 Common
+================================*/
+.content{
+	min-height: 300px;
+}
+
+.public-page .header-inner,
+.public-page .main-menu,
+.public-page .content{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+}
+
+.public-page .header-inner{
+	position: relative;
+}
+
+.public-page #logo-caption{
+	position: absolute;
+	left: 15%;
+	bottom: 5px;
+	overflow: hidden;
+}
+
+.public-page .content-wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+
+.public-page  .right-content{
+	width: 302px;
+	float: right;
+}
+
+.public-page  .left-content{
+	width: 770px;
+	float: left;
+}
+
+.public-page #main-menu{
+	width: 100%;
+	height: 49px;
+	background-image: url(../image/bg_mainmenu.png);
+	background-repeat: repeat-x;
+}
+
+.public-page footer .copyright{
+	width: 100%;
+	height: 38px;
+	background-image: url(../image/bg_copyright.png);
+	background-repeat: repeat-x;
+}
+
+.public-page  footer .sitemap{
+	width: 100%;
+	height: 35px;
+	background-image: url(../image/bg_sitemap.png);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+.public-page  .content{
+	margin: 45px auto 0 auto;
+	overflow: hidden;
+	padding-bottom: 45px;
+	clear: both;
+}
+
+.public-page  .subcontent{
+	width: 740px;
+	float: left;
+}
+
+.public-page  .banner-wrapper{
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	background: #F9F9F9;
+	background-image: url(../image/bg_banner.png);
+	background-repeat: no-repeat;
+	background-size: 100% 285px;
+}
+
+.public-page #basic-view .unit-wrapper{
+	width: 31%;
+	margin: 0 10px 15px 0;
+	display: inline-block;
+	background: #F2F2F2;
+	padding: 10px 0 20px 0;
+}
+
+.public-page #basic-view .list-photo{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.public-page #basic-view .options{
+	margin-top: 20px;
+}
+
+.public-page #detail-view .unit-wrapper{
+	width: 97%;
+	border: 1px solid #BFBFBF;
+	padding-bottom: 20px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	background: #F9F9F9;
+}
+
+.public-page  .result_count, .public-page  .searchview-options{
+	border: 3px solid #CCCCCC;
+	padding: 2px 5px;
+	width: 95%;
+}
+
+
+.public-page  .result-navlinks{
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.public-page  .searchview-options{
+	height: 40px;
+	margin-bottom: 8px;
+}
+
+.public-page  .searchview-options .view-options{
+	float: left;
+	margin-top: 8px;
+}
+
+.public-page  .searchview-options .sort-options{
+	float: right;
+	margin-top: 8px;
+}	
+
+.public-page  #login{
+	width: 560px;
+	float: right;
+}
+
+#tenant-page #login,
+.tenant-page #login,
+#profile-page #login,
+#preference-page #login,
+#agent-page #login,
+.agent-page #login,
+#admin-page #login{
+	width: 350px;
+	float: right;
+}
+
+#home-page #basic-view,
+#list-page #basic-view{
+	display: block;
+}
+
+#home-page #detail-view,
+#list-page #detail-view{
+	display: none;
+}
+
+#agent-content #detail-view{
+	display: block;
+}
+
+#agent-content #basic-view{
+	display: none;
+}
+
+
+.public-page  #login .login-links{
+	margin-left: 180px;
+	clear: both;
+	line-height: 130%;
+}
+
+.public-page  #login .login-div{
+	width: 25%;
+	float: left;
+	height: 40px;
+	overflow: hidden;
+	line-height: 100%;
+	padding-left: 5px;
+}
+
+
+.public-page  .side-navi{
+	width: 302px;
+	line-height: 170%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.public-page .side-navi .side-form{
+	background-image: url(../image/bg_search.png);
+	background-repeat: repeat-y;
+	width: 302px;
+	padding-top: 5px;
+}
+
+.public-page  .side-navi .side-top{
+	background-image: url(../image/bg_searchtop.png);
+	background-repeat: no-repeat;
+	width: 302px;
+	height: 10px;
+}
+
+.public-page  .side-navi .side-bottom{
+	background-image: url(../image/bg_searchbottom.png);
+	background-repeat: no-repeat;
+	width: 302px;
+	height: 10px;
+	line-height: 0;
+}
+
+.public-page  .unit-wrapper .unit-header{
+	border-bottom: 1px solid #BFBFBF;
+	height: 30px;
+	overflow: hidden;
+}
+
+.public-page  #search-area{
+	width: 302px;
+	line-height: 170%;
+	1overflow: hidden;
+	display: inline-block;
+}
+
+.public-page  .unit-wrapper .unit-name{
+	border-right: 1px solid #BFBFBF;
+	width: 380px;
+	height: 30px;
+	float: left;
+}
+
+.public-page  .unit-wrapper .unit-price{
+	border-right: 1px solid #BFBFBF;
+	width: 106px;
+	height: 30px;
+	float: left;
+}
+
+.public-page  .unit-wrapper .unit-availability{
+	width: 250px;
+	height: 30px;
+	float: right;
+}
+
+.public-page  .unit-wrapper .unit-details{
+	height: 107px;
+}
+
+.public-page  .unit-wrapper .unit-photo{
+	width: 127px;
+	height: 110px;
+	float: left;
+	text-align: center;
+}
+
+.public-page  .unit-wrapper .unit-info{
+	float: left;
+	width: 612px;
+	margin-top: 10px;
+}
+
+.public-page  .unit-wrapper .unit-links{
+	height: 30px;
+	clear: both;
+	overflow: hidden;
+}
+
+.public-page  .unit-wrapper .left-links{
+	float: left;
+}
+
+.public-page  .unit-wrapper .right-links{
+	float: right;
+	font-size: 12px;
+}
+
+.public-page .user-settings{
+	width: 265px;
+	background: none repeat scroll 0 0 #F4F4F4;
+    padding: 15px 15px 30px;
+	margin-top: 20px;
+	overflow: hidden;
+	display: block;
+	border: 2px solid #CCCCCC;
+}
+
+#detail-page .main-image{
+	text-align: center;
+	padding: 10px 0;
+}
+
+#detail-page #map_canvass{
+	height: 300px;
+	width: 95%;
+	margin: 0px;
+	padding: 0px
+}
+
+#agent-content #detail-view{
+	display: block;
+}
+
+#agent-content #basic-view{
+	display: none;
+}
+
+#about-page .left-content,
+#usage-page .left-content,
+#contact-page .left-content,
+#reset-page .left-content,
+#add-property-page .left-content,
+#profile-page .left-content,
+#about-page .left-content,
+#register-page .left-content,
+#privacy-page .left-content,
+#register-page .left-content,
+#preference-page .left-content,
+#forgot-page .left-content{
+	margin-left: 15%;
+}
+
+/*   Top Page
+================================*/
+#top-page{
+
+}
+
+#top-page .banner-wrapper{
+	height: 333px;
+	background-image: url(../image/bg_topbanner.png);
+	background-repeat: repeat-x;
+}
+
+
+/*   About Us Page
+================================*/
+#about-page{}
+
+
+/*   Contact Us Page
+================================*/
+#contact-page{}
+
+
+/*   Registration Page
+================================*/
+#regist-page{}
+
+
+/*   Tenant Pages
+================================*/
+#tenant-page .account-settings{
+	width: 74%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 45px;
+}
+
+#tenant-page .btn-wrapper{
+	margin-top: 90px;
+	overflow: hidden;
+}
+
+
+
+/*   Detail Page
+================================*/
+#detail-page .photos-gallery{
+	margin-bottom: 17px;
+	width: 96%;
+	border: 1px solid #BFBFBF;
+}
+
+#detail-page .main-info{
+	background-image: url(../image/detail/bg_detailtitle.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 105px;
+	border-bottom: 1px solid #BFBFBF;
+}
+
+#detail-page .details-wrapper {
+    border: 1px solid #BFBFBF;
+	overflow: hidden;
+	width: 96%;
+}
+
+#detail-page .btn-wrapper{
+	overflow: hidden;
+	border-bottom: 1px solid #BFBFBF;
+	padding: 5px 10px;
+}
+
+#detail-page .additional-info{
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#detail-page .btn-wrapper2{
+	overflow: hidden;
+	border-top: 1px solid #BFBFBF;
+	padding: 5px 10px;
+	clear: both;
+	margin-top: 15px;
+}
+
+#detail-page  .btn-wrapper .options{
+	float: right;
+}
+
+#detail-page  .btn-wrapper2 .options{
+	float: right;
+}
+
+#detail-page .agent-link{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+#detail-page .back-wrapper{
+	width: 96%;
+	margin-top: 20px;
+}
+
+/*   Forgot Page
+================================*/
+#forgot-page  .form-wrapper{
+	width: 100%;
+	padding-bottom: 200px; 
+}
+
+#forgot-page  .form-wrapper form div{
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+/*   Reset Page
+================================*/
+#reset-page  .form-wrapper{
+	width: 95%;
+	padding-bottom: 200px; 
+}
+
+#reset-page  .form-wrapper form div{
+	width: 70%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#reset-page  .form-wrapper form .btn-area{
+	margin-top: 20px;
+}
+
+/*   Register Page
+================================*/
+#register-page  .form-wrapper{
+	width: 100%;
+	padding-bottom: 200px; 
+}
+
+#register-page .form-wrapper form div{
+	width: 70%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#register-page  .form-wrapper .btn-area{
+	margin-top: 30px;
+}
+
+/*   Contact Page
+================================*/
+#contact-page  .form-wrapper{
+	width: 100%;
+	padding-bottom: 200px; 
+}
+
+#contact-page .form-wrapper form div{
+	width: 70%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#contact-page  .form-wrapper .btn-area{
+	margin-top: 30px;
+}
+
+/*   Profile Page
+================================*/
+#profile-page  .form-wrapper{
+	width: 95%;
+	padding-bottom: 200px; 
+}
+
+#profile-page  .form-wrapper form div{
+	width: 70%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#profile-page  .form-wrapper form .btn-area{
+	margin-top: 20px;
+}
+
+/*   Reset Page
+================================*/
+#reset-page  .form-wrapper{
+	width: 95%;
+	padding-bottom: 200px; 
+}
+
+#reset-page  .form-wrapper form div{
+	width: 70%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#reset-page  .form-wrapper form .btn-area{
+	margin-top: 20px;
+}
+
+/*   Preferences Page
+================================*/
+#preference-page .form-wrapper{
+	width: 95%;
+	padding-bottom: 200px; 
+}
+
+#preference-page #location-area li div{
+	width: 385px;
+	display: inline-block;
+}
+
+#preference-page .min-area li div{
+	width: 350px;
+	display: inline-block;
+}
+
+#preference-page .form-container{
+	margin-left: 10px;
+}
+
+#preference-page  .form-wrapper form .btn-area{
+	margin: 20px auto 0 auto;
+	width: 95%;
+}
+
+/*   Modal Dialog
+================================*/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 425px;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 20px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.modalDialog .modalbtn-area{
+	text-align: center;
+	height: 35px;
+	margin: 30px auto 0 auto;
+	display: block;
+}
+
+/*   Location Modal
+================================*/
+
+#locationModal iframe{
+	margin: 0 auto;
+}
+
+/*   Inquiry Modal
+================================*/
+.iModal > div{
+	height: 500px;
+	margin: 3% auto;
+}
+
+.iModal .modalunit-info{
+	width: 100%;
+	height: 180px;
+	margin: 10px auto 15px auto;
+	display: block;
+	overflow: hidden;
+}
+
+.iModal .list-photo{
+	float: left;
+	width: 48%;
+	overflow: hidden;
+}
+
+.iModal .modalbtn-area{
+	width: 190px;
+	margin-left: 55%;
+	padding-top: 30px;
+	overflow: hidden;
+	display: block;
+}
+
+/*   Pictures Modal
+================================*/
+.pModal > div,
+.pModal > div{
+	height: auto;
+}
+
+.pModal #more-photos{
+	width: 100%;
+	height: auto;
+	margin: 5px 0 10px 0;
+	overflow: hidden;
+	display: block;
+	clear: both;
+}
+
+.pModal #photo-wrapper01,
+.pModal #photo-wrapper02,
+.pModal #photo-wrapper03,
+.pModal #photo-wrapper04,
+.pModal #photo-wrapper05,
+.pModal #photo-wrapper1,
+.pModal #photo-wrapper2, 
+.pModal #photo-wrapper3, 
+.pModal #photo-wrapper4, 
+.pModal #photo-wrapper5{
+	text-align: center;
+}
+
+.pModal #photo-wrapper02,
+.pModal #photo-wrapper03,
+.pModal #photo-wrapper04,
+.pModal #photo-wrapper05,
+.pModal #photo-wrapper2, 
+.pModal #photo-wrapper3, 
+.pModal #photo-wrapper4, 
+.pModal #photo-wrapper5{
+	display: none;
+}
+
+.pModal #photo-wrapper01,
+.pModal #photo-wrapper1{
+	display: block;
+}
+
+.pModal .delete-photo{
+	display: none;
+	padding: 2px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pModal #photo01,
+.pModal #photo1{
+	display: block;
+}
+
+/*   Agent Page
+================================*/
+#agent-content .addunit-options{
+	float: left;
+	margin: 8px 30px 0 5px;
+}
+
+/*   Agent Add Property Page
+================================*/
+#add-property-page table td div{
+	padding: 10px 0;
+}
+
+#add-property-page form .btn-area{
+	margin: 20px auto 0 auto;
+	width: 95%;
+}

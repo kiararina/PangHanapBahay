@@ -1,0 +1,230 @@
+/*   Common Elements
+================================*/
+a{
+	border:0;
+	color:#0071BC;
+}
+
+/*   Admin Page
+================================*/
+#admin-page #main-menu nav a{
+	color: #000000;
+	font-size: 16px;
+	text-decoration: none;
+	float: left;
+	padding: 0 20px 5px 20px;
+	font-weight: 500;
+}
+
+#admin-page a.info-link{
+	color: #0089CF;
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 5px;
+	display: block;
+}
+
+#admin-page #main-menu nav a:hover{
+	color: #0819F9;
+}
+
+#admin-page #main-menu nav a.selected{
+	color: #0819F9;
+	border-bottom: 3px solid #071C51;
+}
+
+#admin-page .side-activities li a{
+	color: #0089CF;
+	font-size: 12px;
+	padding: 2px 0;
+	font-style: italic;
+	text-decoration: none;
+	text-overflow: ellipsis;
+}
+
+#admin-page table#info-table a{
+	color: #0089CF;
+	padding: 2px 0;
+	text-decoration: none;
+	text-overflow: ellipsis;
+}
+
+#admin-page table#info-table td.post-title a{
+	text-overflow: ellipsis;
+}
+
+
+
+/*   Public, Tenant, Agent Pages
+	 Common
+================================*/
+
+.public-page #main-menu nav a{
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 50px 0 50px;
+	text-decoration: none;
+	height: 34px;
+	color: #FFFFFF;
+}
+
+.public-page #main-menu nav a:hover,
+.public-page #main-menu nav a.selected{
+	background-image: url(../image/bg_mainmenuh.png);
+	background-repeat: repeat-x;
+}
+
+.public-page .sitemap nav a{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	background-image: url(../image/listmark_sitemap.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.public-page .login-links a{
+	font-size: 11px;
+	margin-left: 25px;
+}
+
+.public-page .unit-wrapper .left-links ul li a{
+	text-decoration: none;
+	background-image: url(../image/listmark_arrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 15px;
+}
+
+.public-page .unit-wrapper .right-links a{
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+.public-page #basic-view .options a,
+.public-page #detail-view .options a,
+.public-page .options a{
+	color: #0089CF;
+	font-size: 11px;
+	padding: 0 3px;
+	display: block;
+}
+
+.public-page .user-settings li a {
+    color: #0089CF;
+    font-size: 13px;
+    font-style: italic;
+    padding: 4px 0;
+    text-overflow: ellipsis;
+}
+
+#tenant-page .side-form a,
+#agent-page .side-form a,
+#admin-page .side-form a{
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 0 10px 24px;
+}
+
+#tenant-page .side-form a:hover,
+#agent-page .side-form a:hover,
+#admin-page .side-form a:hover{
+	background-color: #DBDBDB;
+	color: #000000;
+}
+
+.public-page .back-wrapper a{
+	text-decoration: none;
+}
+
+/*   Top Page
+================================*/
+#top-page{
+
+}
+
+
+/*   Detail Page
+================================*/
+#detail-page .btn-wrapper a{
+	margin: 2px;
+}
+
+#detail-page .agent-link a{
+	font-size: 12px;
+	text-decoration: none;
+	background-image: url(../image/listmark_arrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 15px;
+}
+
+/*   Modal Dialog
+================================*/
+.modalDialog a.close {
+	color: #FFFFFF !important;
+}
+
+.modalDialog a.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.modalDialog a.close:hover { 
+	background: #CED8F6; 
+	color: #1C1C1C !important;
+}
+
+/*   Pictures Modal
+================================*/
+#picturesModal #more-photos #photo-controls li a{
+	display: block;
+}
+
+#picturesModal #more-photos #photo-controls li a:active{
+	border: 1px solid red;
+}
+
+#picturesModal #more-photos #photo-controls li a:hover{
+	border: 1px solid red;
+}
+
+#picturesModal #more-photos #photo-controls a.selected{
+	border: 1px solid red;
+}
+
+/*   Agent Page
+================================*/
+#user-sitemap nav a{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	background-image: url(../image/listmark_sitemap.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}

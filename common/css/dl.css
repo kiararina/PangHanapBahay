@@ -1,0 +1,13 @@
+/*   Common Elements
+================================*/
+dl{
+	font-size:14px;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0;
+	color:#333333;
+	letter-spacing:0;
+	line-height:150%;
+	font-family: arial, helvetica, sans-serif;
+}
+

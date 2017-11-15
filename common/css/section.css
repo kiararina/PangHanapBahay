@@ -1,0 +1,22 @@
+/*   Common Elements
+================================*/
+.main-menu{
+
+}
+
+/*   Admin Page
+================================*/
+
+/*   Top Page
+================================*/
+#top-page{
+
+}
+
+#top-page .unit-wrapper{
+	overflow: hidden;
+	border: 1px solid #BFBFBF;
+	width: 740px;
+	height: 167px;
+	margin-bottom: 12px;
+}
